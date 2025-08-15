@@ -1,0 +1,67 @@
+.product-delete-container {
+	max-width: 300px;
+	margin: 2rem auto;
+	padding: 1rem;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: white;
+}
+
+h1 {
+	color: blue;
+
+}
+
+.product-delete-image {
+	/* specific size for image */
+	width: 300px; 
+	height: 300px;
+	object-fit: contain;
+	border-radius: 12px;
+	margin-bottom: 1rem;
+	border-radius: 20px;
+	border: black;
+	background-color: transparent;
+}
+
+.product-delete-name {
+	font-size: 1.8rem;
+	margin-bottom: 0.5rem;
+	color: green;
+}
+
+.product-delete-description {
+	font-size: 1rem;
+	color: #555;
+	margin-bottom: 1rem;
+}
+
+
+.product-delete-container .product-delete-button{
+	padding: 0.6rem 1rem;
+	background-color: #e53935;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+@media (max-width: 600px) {
+	.product-delete-name {
+		font-size: 1.5rem;
+	}
+
+	.deleteProductButton {
+		width: 100%;
+		padding: 1rem;
+	}
+	.product-delete-container {
+		margin: 1rem;
+		padding: 1rem;
+	}
+}

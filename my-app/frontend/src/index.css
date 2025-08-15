@@ -1,0 +1,14 @@
+body {
+	height: 100%;
+	font-family: "Fredoka", sans-serif;
+	background-color: #e6e6fa; /*lavender*/
+}
+
+h1 {
+	font-size: xx-large;
+	color: palevioletred;
+}
+
+* {
+	box-sizing: border-box;
+}

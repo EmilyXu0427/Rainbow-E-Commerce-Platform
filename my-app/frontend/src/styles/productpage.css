@@ -1,0 +1,29 @@
+.product-page {
+	padding: 2rem;
+	font-family: sans-serif;
+}
+
+.page-title {
+	text-align: center;
+	margin-bottom: 2rem;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: palevioletred;
+}
+
+.card-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1.5rem;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.totalPrice {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+@media (min-width: 768px) {
+	.card-grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}

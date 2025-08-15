@@ -1,0 +1,71 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 1rem 3rem;
+	position: sticky;
+	top: 5%;
+	z-index: 1000;
+	margin: 0 auto;
+	width: 80%;
+}
+.nav-links {
+	display: flex;
+	gap: 2rem;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+
+.nav-button {
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	width: 10%;
+	background-color: #05c528;
+	color: #333;
+	font-weight: 500;
+	font-size: 1rem;
+	padding: 0.5rem 1.5rem;
+	border-radius: 6px;
+}
+
+.nav-button:hover {
+	background-color: palevioletred;
+}
+
+.rainbow-button {
+	text-align: center;
+	font-family: "Fredoka", sans-serif;
+	font-weight: 500;
+	background-color: palevioletred;
+	color: #333;
+	font-size: 1rem;
+	padding: 0.5rem 1.2rem;
+	border-radius: 6px;
+	border: none;
+	width: 100%;
+	max-width: 200px;
+}
+
+@media (max-width: 768px) {
+	.navbar {
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 1rem;
+	}
+
+	.nav-links {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.nav-button,
+	.nav-cart {
+		width: 100%;
+		text-align: left;
+	}
+	.rainbow-button {
+		max-width: 220px;
+		font-size: 1rem;
+	}
+}

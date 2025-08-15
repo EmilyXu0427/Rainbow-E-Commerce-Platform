@@ -1,0 +1,11 @@
+//source: https://www.youtube.com/watch?v=MNs_7avLIJ4
+export const ADD_TO_CART ="ADD_TO_CART";
+export const REMOVE_FROM_CART ="REMOVE_FROM_CART";
+export const ADJUST_QTY = "ADJUST_QTY";
+export const SET_PRODUCTS = "SET_PRODUCTS";
+export const FETCH_PRODUCTS_REQUEST = "FETCH_PRODUCTS_REQUEST";
+export const FETCH_PRODUCTS_SUCCESS = "FETCH_PRODUCTS_SUCCESS";
+export const FETCH_PRODUCTS_FAIL = "FETCH_PRODUCTS_FAIL";
+export const INIT_CART_SUCCESS = "INIT_CART_SUCCESS";
+export const INIT_CART_FAIL = "INIT_CART_FAIL";
+export const CLEAR_CART = "CLEAR_CART";

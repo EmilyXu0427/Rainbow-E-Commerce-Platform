@@ -1,0 +1,43 @@
+.adminpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  gap: 2rem;
+}
+h1 {
+  color: #A020F0;
+}
+
+h2 {
+  color: blue;
+}
+
+h3 {
+  color: darkcyan;
+}
+
+.adminpage button {
+  padding: 1rem 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  background-color: #A020F0;
+  color: white;
+  width: 200px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .adminpage {
+    padding: 2rem 1rem;
+  }
+
+  .adminpage button {
+    flex-direction: column;
+    width: 100%;
+    font-size: 1rem;
+  }
+}

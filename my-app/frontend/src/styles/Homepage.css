@@ -1,0 +1,45 @@
+.homepage {
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	text-align: center;
+}
+
+.homepage h1 {
+	font-size: 3vw;
+	margin-bottom: 1rem;
+}
+
+.homepage h2 {
+	font-size: 2vw;
+	margin-bottom: 2rem;
+}
+
+.section-title {
+  color: green;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.best-seller-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 768px) {
+	.homepage-container h1 {
+		font-size: 6vw;
+	}
+
+	.homepage-container h2 {
+		font-size: 4.5vw;
+	}
+}
