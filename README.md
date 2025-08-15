@@ -8,20 +8,17 @@ Rainbow E-Commerce Platform is a responsive online shopping website tailored for
 ## Key Features
 
 - **Home Page**
-  - Include home page button to display homepage welcoming message
-  - Includes a navigation bar that links to different product categories (skincare, clothes, books), a search page, and the shopping cart.
+  - A navigation bar that links to different pages.
   - A "Rainbow" button on the home page changes the background color to a randomly selected rainbow-themed color.
+  - Display 3 best-seller products
 - **Category Page**
   - Displays products filtered by category.
   - Each product includes a "Show Details" button linking to the product detail page.
 - **Product Details Page**
   - Shows product image, name, description, price, and other attributes.
-  - Attributes vary based on the product category.
   - Includes an "Add to Cart" button to add product to shopping cart and direct user to shopping cart.
-- **Search**: Supports keyword search on product name, description, category and variant.
-- **Best Sellers**:
-  - New category, populated with at least one product from each category.
-  - "Best Sellers" page + 3-item display on homepage.
+- **Search**:
+  - Supports keyword search on product name, description, category and variant.
 - **Shopping Cart Page**
   - Displays all added items.
   - Users can:
@@ -29,7 +26,6 @@ Rainbow E-Commerce Platform is a responsive online shopping website tailored for
     - Enter quantity directly into an input box.
     - Remove individual items from the cart.
   - Total price of all added items is calculated and displayed on the bottom of shopping cart page
-
 - **Checkout Page**:
   - Website prompts to ask user enter their name when checkout shopping cart
   - Captures customer name to the order
@@ -47,7 +43,6 @@ Rainbow E-Commerce Platform is a responsive online shopping website tailored for
 - Product
 - ProductAttribute
 - ProductAttributePrice
-
 
 ## Instruction for run the app with Docker
 
