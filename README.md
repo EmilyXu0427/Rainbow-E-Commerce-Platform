@@ -7,9 +7,6 @@ Rainbow E-Commerce Platform is a responsive online shopping website tailored for
 
 ## Key Features
 
-
-
-#### Major Functionalities
 - **Home Page**
   - Include home page button to display homepage welcoming message
   - Includes a navigation bar that links to different product categories (skincare, clothes, books), a search page, and the shopping cart.
